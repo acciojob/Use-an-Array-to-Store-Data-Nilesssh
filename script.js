@@ -1,6 +1,5 @@
 
 
-const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango", true , 45 , false, undefined, "nice"];
-const citrus = fruits.splice(1);
+const nilesh = ["nilesh", null , undefined, 123 , true , false , 1.2 ];
 
-document.getElementById("demo").innerHTML = citrus;
+document.getElementsByName("li").innerHTML = nilesh.length ;
