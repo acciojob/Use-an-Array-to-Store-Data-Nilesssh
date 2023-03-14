@@ -1,5 +1,5 @@
 
 
-let nilesh = ["nilesh", null , undefined, 123 , true];
+let nilesh = ["nilesh", true , "hello", 123 , 1.3];
 
-document.getElementsByName("li").innerHTML = nilesh.length ;
+document.getElementById("nice").innerHTML = nilesh ;
