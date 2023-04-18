@@ -1,3 +1,3 @@
-let yourArray = ["nilesh", true , "hello", 123 , 1.3];
+let yourArray = [];
 
 document.getElementById("nice").innerHTML = yourArray ;
