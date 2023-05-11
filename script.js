@@ -3,4 +3,5 @@ let nice = [1,"hello", true , "nice", false];
 nice.forEach(element => {
 	str+=`<li>${element}</li>`;
 })
-document.getElementsByTagName("ol")[0].innerHTML = str ;
+let abc = `<ol>${str}</ol>`
+document.getElementsByTagName("body")[0].innerHTML = abc ;
